@@ -9,7 +9,7 @@
 
     <!-- given this is a console command, exit(-1) is right -->
     <Match>
-        <Class name="com.yammer.dropwizard.cli.ConfiguredCommand"/>
+        <Class name="com.yammer.dropwizard.cli.Cli"/>
         <Method name="run"/>
         <Bug pattern="DM_EXIT"/>
     </Match>
